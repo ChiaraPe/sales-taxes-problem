@@ -1,3 +1,14 @@
+I write my application in Java, using Eclipse tool (JRE 1.8.0_25).
+
+To run the application, you have to run SalesTaxesExample class, which prints out the receipt details for the
+required inputs.
+
+In the main package of the project (src/salestaxes) you can find a class (InputFactory.java) used for produced the inputs 
+and the main class (SalesTaxesExample.java). There are two other packages:
+- src/salestaxes.items, which contains the classes representing the basic items involved into the problem;
+- src/salestaxes.service, which contains services classes (to make computation and to print out the results).
+
+
 PROBLEM: SALES TAXES
 
 Basic sales tax is applicable at a rate of 10% on all goods, except books, food, and medical products that are exempt. Import duty is an additional sales tax applicable on all imported goods at a rate of 5%, with no exemptions.
